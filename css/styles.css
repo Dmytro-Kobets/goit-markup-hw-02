@@ -53,6 +53,10 @@ body {
   color: var(--accent-color);
 }
 
+.navigation-item .current {
+  color: var(--accent-color);
+}
+
 /* -----HERO----- */
 
 .hero {

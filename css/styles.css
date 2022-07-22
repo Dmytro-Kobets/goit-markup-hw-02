@@ -6,7 +6,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  color:#212121;
+  color: #212121;
 }
 
 .list {
@@ -39,7 +39,7 @@ body {
   font-weight: 500;
   line-height: 1.33;
   letter-spacing: 0.02em;
-  color:var(--primary-color);
+  color: var(--primary-color);
 }
 .navigation-contacts a {
   font-weight: 500;
@@ -68,6 +68,7 @@ body {
   color: #ffffff;
 }
 .hero-btn {
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -92,7 +93,8 @@ body {
 }
 .about-list-title {
   font-weight: 700;
-  line-height: 1.33;
+  font-size: 14px;
+  line-height: 0.87;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -213,9 +215,12 @@ body {
 .footer-adress a {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .footer a[href^="https"] {
+  
   color: #ffffff;
 }
 .footer-list {
